@@ -65,8 +65,8 @@ git pull origin gh-pages
  
 以上主要依据Mike Dane的[Jekyll - Static Site Generator Tutorial](https://youtube.com/playlist?list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB)系列教学视频 <- 推荐观看
 
-## 2 Jekyll中Markdown语法 【todo】
+## 2 Jekyll中Markdown语法 [todo]
 
-## 3 Jekyll配置笔记【todo]
+## 3 Jekyll配置笔记 [todo]
 
 
