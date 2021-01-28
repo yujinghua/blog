@@ -2,7 +2,7 @@
 layout: post
 title:  "Github Pages and Jekyll 博客搭建指南"
 date:   2021-01-24 20:04:03 +0100
-categories: jekyll
+categories: tool
 ---
 
 Notes: \\
