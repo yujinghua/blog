@@ -1,25 +1,22 @@
 ---
 layout: post
-title:  "Github Pages and Jekyll 博客搭建指南"
+title:  "博客搭建指南(Github Pages and Jekyll)"
 date:   2021-01-24 20:04:03 +0100
 categories: tool jekyll
 ---
 
 
-## Table of contents
-- [建立基础功能博客站点](#建立基础功能博客站点)
-- [更改站点主题](#更改站点主题)
-- [博文撰写语法](#博文撰写语法)
+## 内容提要
+1. 使用Github Pages及Jekyll建立基础功能博客站点
+1. 更改Jekyll主题
+1. Jekyll中的Markdown语法
+
+---
 
 
-Notes: \\
-1) 默认已有一个GitHub账户; \\
-2) 使用MAC运行环境
+## 使用Github Pages及Jekyll建立基础功能博客站点
 
-
-## 建立基础功能博客站点
-
-### 使用Github Pages及Jekyll建立基础功能博客站点操作步骤如下
+### 操作步骤如下
 
 1.1 在GitHub中创建一个新的仓库，名字任意（无需特殊后缀），选择“public”，其余不勾选，如下图（在后续选用模板时，会带有模板使用的license）。
 
@@ -69,11 +66,11 @@ git push origin gh-pages # 将本地文件上传
 git pull origin gh-pages
 ```
 
-### Ref
+### Reference
  
 以上主要依据Mike Dane的[Jekyll - Static Site Generator Tutorial](https://youtube.com/playlist?list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB)系列教学视频 <- 推荐观看
 
-## 更改站点主题
+## 更改Jekyll主题
 
 本站点当前使用的主题为[no-style-please](https://github.com/riggraz/no-style-please#customize-the-menu)，可根据其readme中的[installation](https://github.com/riggraz/no-style-please#installation)指导进行安装。
 
@@ -82,9 +79,9 @@ git pull origin gh-pages
 该主题相关的配置操作，详见项目readme中的[Usage](https://github.com/yujinghua/blog#usage)。
 
 
-## 博文撰写语法
+## Jekyll中的Markdown语法
 
-使用Jekyll撰写博文，主要使用Markdown。根据所使用的Markdown解析器，可能语法略有不同。以下为本站点下使用的解析器(kramdown)语法。
+使用Jekyll撰写博文时，主要使用Markdown。根据所使用的Markdown解析器，可能语法略有不同。以下为本站点下使用的解析器(kramdown)语法。
 
 ### 1) 文本格式
 
@@ -193,6 +190,5 @@ _倾斜_
 ### 11) 临时禁止Jekyll tag命令
 
 使用 {% raw %} {% raw/endraw %} {% endraw %} tag对，包裹需要禁止的命令，但似乎是不能对自身使用（即无法嵌套）
-
 
 

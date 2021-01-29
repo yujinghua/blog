@@ -15,5 +15,10 @@ entries:
       - title: tool
         url: category_tool.html
 
-  - title: rss
-    url: feed.xml
+  - title: Contact
+    entries:
+      - title: yujinghua@outlook.com
+      - title: Github
+        url: https://github.com/yujinghua
+      - title: rss
+        url: feed.xml
