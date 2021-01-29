@@ -2,16 +2,24 @@
 layout: post
 title:  "Github Pages and Jekyll 博客搭建指南"
 date:   2021-01-24 20:04:03 +0100
-categories: tool
+categories: tool jekyll
 ---
+
+
+## Table of contents
+- [建立基础功能博客站点](#建立基础功能博客站点)
+- [更改站点主题](#更改站点主题)
+- [博文撰写语法](#博文撰写语法)
+
 
 Notes: \\
 1) 默认已有一个GitHub账户; \\
 2) 使用MAC运行环境
 
-## 1 使用Github Pages及Jekyll建立基础功能博客站点
 
-### 操作步骤
+## 建立基础功能博客站点
+
+### 使用Github Pages及Jekyll建立基础功能博客站点操作步骤如下
 
 1.1 在GitHub中创建一个新的仓库，名字任意（无需特殊后缀），选择“public”，其余不勾选，如下图（在后续选用模板时，会带有模板使用的license）。
 
@@ -65,11 +73,20 @@ git pull origin gh-pages
  
 以上主要依据Mike Dane的[Jekyll - Static Site Generator Tutorial](https://youtube.com/playlist?list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB)系列教学视频 <- 推荐观看
 
-## 2 Jekyll中Markdown语法
+## 更改站点主题
 
-以下环境为Jekyll 4.2.0中默认markdown解析器。基本语法规则的使用效果及markdown文本如下。
+本站点当前使用的主题为[no-style-please](https://github.com/riggraz/no-style-please#customize-the-menu)，可根据其readme中的[installation](https://github.com/riggraz/no-style-please#installation)指导进行安装。
 
-2.1 文本格式
+若为新建博客站点（个人内容为空），即可直接download或fork该项目后在其基础上更改。
+
+该主题相关的配置操作，详见项目readme中的[Usage](https://github.com/yujinghua/blog#usage)。
+
+
+## 博文撰写语法
+
+使用Jekyll撰写博文，主要使用Markdown。根据所使用的Markdown解析器，可能语法略有不同。以下为本站点下使用的解析器(kramdown)语法。
+
+### 1) 文本格式
 
 **加粗**  \\
 _倾斜_   \\
@@ -88,7 +105,7 @@ _倾斜_
 换行符 \\ 注意后面不加空格
 ```
 
-2.2 标题等级
+### 2) 标题等级
 
 ## 大级标题
 ### 中级标题
@@ -107,13 +124,13 @@ _倾斜_
 在文字下一行添加---，===也会分别将文字格式化为不同大小标题
 ```
 
-2.3 书写`行内代码`
+### 3) 书写`行内代码`
 
 ```
 `行内代码` # 使用两个点包括
 ```
 
-2.4 引用
+### 4) 引用
 > 引用1  
 引用2
 > > 嵌套引用
@@ -124,13 +141,13 @@ _倾斜_
 > > 嵌套引用
 ```
 
-2.5 代码段
+### 5) 代码段
 
 使用\`\`\`和\`\`\`包裹代码块 \\
 若需要进行代码高亮，可使用\`\`\` + 空格 + 语言名 (e.g. html) \\
 或者{% raw %}{% highlight language %}及{% endhighlight %}来包裹{% endraw %}
 
-2.6 无需列表
+### 6) 无需列表
 + 使用+号书写无序列表
 - 使用-号书写无序列表
 * 使用\*号书写无序列表
@@ -141,7 +158,7 @@ _倾斜_
 * 使用\*号书写无序列表
 ```
 
-2.7 有序列表
+### 7) 有序列表
 1. 使用数字+.+空格+内容书写有序列表
 1. 具体的数字无需关系（即可以都写1）
 
@@ -150,7 +167,7 @@ _倾斜_
 1. 具体的数字无需关系（即可以都写1）
 ```
 
-2.8 分割线
+### 8) 分割线
 
 --- 
 可以使用\*\*\*及- - -绘制分割线,注意分割线上方需有空行
@@ -158,12 +175,12 @@ _倾斜_
 *** 
 
 
-2.9 超链接
+### 9) 超链接
 ```
 [链接显示的名称](链接地址)
 ```
 
-2.10 图片插入
+### 10) 图片插入
 
 可使用如下两种形式，使用第二种可调节图片大小。
 
@@ -173,12 +190,9 @@ _倾斜_
 ```
 
 
-2.11 临时禁止Jekyll tag命令
+### 11) 临时禁止Jekyll tag命令
 
 使用 {% raw %} {% raw/endraw %} {% endraw %} tag对，包裹需要禁止的命令，但似乎是不能对自身使用（即无法嵌套）
-
-
-## 3 Jekyll配置笔记 [todo]
 
 
 

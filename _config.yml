@@ -1,7 +1,7 @@
 title: Yu's Blog # name of the site
 author: YU # name of site's author
-email: riccardo.graziosi97@gmail.com # email of site's author
-url: https://riggraz.dev # root address of the site
+email: yujinghua@outlook.com # email of site's author
+url:  # root address of the site
 baseurl: "/blog" # subpath of the site, e.g. "/blog"
 description: > # description of the site (multiple lines allowed)
   Explore the World!
@@ -23,6 +23,7 @@ theme_config:
 sass:
   style: :compressed
 
+markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
