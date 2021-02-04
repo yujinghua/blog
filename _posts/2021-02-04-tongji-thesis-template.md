@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "(非官方)同济大学硕博论文Letax模板使用笔记"
+title:  "(非官方)同济大学硕博论文Latex模板使用笔记"
 date:   2021-02-04 20:53:00 +0100
 categories: acad tongji
 ---
