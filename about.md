@@ -1,8 +1,14 @@
 ---
 layout: page
-title: About
+title: About Me
 ---
 
-This is an example page!
+## Me
 
-It's very similar to a `post` layout, with the only difference that the publish date is not shown!
+ ... 
+
+ 
+## Contact
+
+- e-mail: yujinghua@outlook.com
+- [Github](https://github.com/yujinghua)

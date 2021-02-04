@@ -12,13 +12,17 @@ entries:
 
   - title: Category
     entries:
-      - title: tool
+      - title: Academic Know-how
+        url: category_acad.html
+      - title: Tool
         url: category_tool.html
+      
 
-  - title: Contact
+  - title: Info
     entries:
-      - title: yujinghua@outlook.com
-      - title: Github
-        url: https://github.com/yujinghua
+      - title: Contact
+        url: about.html
       - title: rss
         url: feed.xml
+      - title: 许可证书
+        url: lic.html

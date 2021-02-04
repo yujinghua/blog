@@ -183,7 +183,7 @@ _倾斜_
 
 ``` html
 ![](图片位置如/blog/image/inPosts/1.png)
-<img src="图片位置" width="500” height=“100” alt=“” />
+<img src="图片位置" width="500" height="100" alt="">
 ```
 
 
