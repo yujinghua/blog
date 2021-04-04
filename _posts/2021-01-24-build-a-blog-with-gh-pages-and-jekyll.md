@@ -32,6 +32,7 @@ categories: tool jekyll
 jekyll new test_blog # 创建一个默认配置的新博客站点文件
 cd. your_blog_folder # 进入新创建的站点文件夹
 bundle exec jekyll serve # 开启jekyll服务
+bundle exec jekyll serve --draft # 开启jekyll服务，在本地预览中显示draft posts
 ```
 
 成功运行后，打开浏览器，输入“localhost:4000”，能够显示新建博客的home界面。
