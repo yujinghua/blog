@@ -171,7 +171,7 @@ python auto.py
 
 2）在同一界面的Component Services -> Computers -> My Computer -> DCOM Config中找到Vecter CANoe Application，并在属性->security->launch and activation permission 中添加对应账户的权限，如下图。
 
-![](/blog/image/inPosts/2021-04-27-18.png)
+![](/blog/image/inPosts/2021-04-27-16.png)
 
 完成上述配置后，即可实现通过Jenkins运行脚本后，调用CANoe自动化接口。
 
